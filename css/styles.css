@@ -107,7 +107,7 @@ ul {
     max-width: 1440px;
       margin: 0 auto;
     }
-}
+
 
 .header-navigation {
   display: flex;
@@ -312,7 +312,7 @@ ul {
   max-width: 1440px;
     margin: 0 auto;
   }
-}
+
 
 .team-container {
 }
@@ -547,6 +547,11 @@ ul {
   width: 40px;
   height: 40px;
 }
+
+.footer-form-container{
+    margin-left: 80px;
+}
+
 .footer-form{
 display: flex;
 gap: 24px;
@@ -558,8 +563,10 @@ gap: 24px;
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
-    /* 150% */
     letter-spacing: 0.02em;
+}
+.footer-label{
+
 }
 
 
@@ -571,8 +578,7 @@ gap: 24px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   background-color: transparent;
   padding-left: 16px;
-  margin-right: 24px;
-  color: #FFF;
+   color: #FFF;
   font-size: 12px;
     line-height: 2px;
     letter-spacing: 0.04em;
@@ -590,7 +596,6 @@ gap: 24px;
   padding: 8px 20px;
   justify-content: center;
     align-items: center;
-    gap: 16px;
   min-width: 165px;
   height: 40px;
   color: #fff;
@@ -608,7 +613,7 @@ gap: 24px;
 }
 .footer-button span{
   fill: #fff;
-  /* margin-left: 16px; */
+  margin-left: 16px;
   display: flex;
   justify-content: center;
   align-items: center;
