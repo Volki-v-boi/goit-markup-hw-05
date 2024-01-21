@@ -611,13 +611,14 @@ gap: 24px;
   border: none;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.footer-button span{
+.footer-btn-icon{
   fill: #fff;
-  margin-left: 16px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+    margin-left: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
 
 
 .footer-button:hover,
